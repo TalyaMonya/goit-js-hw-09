@@ -123,3 +123,10 @@ button[disabled] {
       10px 10px 0px #4c7683,
       15px 15px 25px rgba(0, 0, 0, .9);
 }
+
+button[type='submit'] {
+  width: 88px;
+  height: 44px;
+  border-radius: 34px;
+  background-color: #f7eff4;
+}
