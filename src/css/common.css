@@ -86,3 +86,40 @@ button:active {
   background-color: #6b728a;
   top: 3px;
 }
+
+button[disabled] {
+  color: #ab803c;
+  animation: none;
+}
+
+.timer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value, .label{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-shadow:
+      1px 1px 0px #c4dbe2,
+      2px 2px 0px #b4d1d9,
+      3px 3px 0px #a6c6cf,
+      4px 4px 0px #94b8c3,
+      5px 5px 0px #87aeb9,
+      6px 6px 0px #7aa3af,
+      7px 7px 0px #6d97a3,
+      8px 8px 0px #618b98,
+      9px 9px 0px #56818e,
+      10px 10px 0px #4c7683,
+      15px 15px 25px rgba(0, 0, 0, .9);
+}
