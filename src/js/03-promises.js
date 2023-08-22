@@ -13,7 +13,7 @@ function onSubmit(evt) {
   const step = Number(evt.currentTarget.elements.step.value);
   let amount = Number(evt.currentTarget.elements.amount.value);
 
-  for (i = 1; i <= amount; i += 1){
+  for (let i = 1; i <= amount; i += 1){
       createPromise(i, delay)
   .then(({ position, delay }) => {
     Notify.success(`✅ Fulfilled promise ${position} in ${delay}ms`);
